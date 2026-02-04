@@ -1,0 +1,220 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.inlayHints.fontSize": 16,
+    "editor.fontFamily": "JetBrainsMono NF",
+    "workbench.iconTheme": "catppuccin-latte",
+    "redhat.telemetry.enabled": true,
+    "cSpell.userWords": [
+        "ainvoke",
+        "astream",
+        "dama",
+        "Debugw",
+        "Errorw",
+        "Fatalw",
+        "Infow",
+        "Instrumentor",
+        "minigrep",
+        "TAOBAO",
+        "TMALL",
+        "ZDMAILLM",
+        "zhangdama"
+    ],
+    "yaml.customTags": [],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "custom-dictionary-user",
+            "path": "~/.cspell/custom-dictionary-user.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
+    "explorer.confirmDelete": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.lineHeight": 32,
+    "go.alternateTools": {
+        "go": "/home/oliver/.g/go/bin/go"
+    },
+    "go.delveConfig": {},
+    "database-client.autoSync": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+    },
+    "workbench.settings.applyToAllProfiles": [],
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.suggest.showWords": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.inheritEnv": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/home/oliver/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/home/oliver/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.minikube-show-information-expiration": "2025-10-26T03:27:21.921Z"
+    },
+    "remote.defaultExtensionsIfInstalledLocally": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+    "workbench.colorTheme": "Catppuccin Latte",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "docker.extension.enableComposeLanguageServer": false,
+    "roo-cline.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show",
+        "npm test",
+        "npm install",
+        "tsc"
+    ],
+    "roo-cline.deniedCommands": [],
+    "go.lintTool": "golangci-lint-v2",
+    "editorjumper.ideConfigurations": [
+        {
+            "name": "IDEA",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "WebStorm",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "PyCharm",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "GoLand",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "CLion",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "PhpStorm",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "RubyMine",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "Rider",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "Android Studio",
+            "isCustom": false,
+            "hidden": false,
+            "commandPath": null
+        },
+        {
+            "name": "Xcode",
+            "commandPath": null,
+            "isCustom": false,
+            "hidden": false
+        }
+    ],
+    "http.proxy": "http://127.0.0.1:7890",
+    "cursor.general.disableHttp2": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "cSpell.textDecoration": "underline wavy #348feb auto",
+    "cSpell.useCustomDecorations": true,
+    "git.enableSmartCommit": true,
+    "php.validate.executablePath": "/opt/homebrew/opt/php@8.1/bin/php",
+    "LaravelExtraIntellisense.phpCommand": "/opt/homebrew/opt/php@8.1/bin/php -r \"{code}\"",
+    "editor.minimap.enabled": true,
+    "claudeCode.preferredLocation": "panel"
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "vscode://schemas/settings/user",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay"
+}

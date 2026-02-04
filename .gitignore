@@ -1,0 +1,11 @@
+# Backups
+*.backup.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files (if any)
+*.pem
+*.key
+.env
